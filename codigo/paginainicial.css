@@ -6,7 +6,7 @@ body {
 }
 nav { 
     width: 100%; 
-    background-image: url("imgs/background.jpg"); 
+    background-image: url("imgs/recortebackground.jpg"); 
     float: left; 
     padding: 10px 0px; 
 }
@@ -17,36 +17,69 @@ nav ul li {
 }
 nav ul li a { 
     padding: 10px; 
-    color: #bf6eac; 
+    color: #942d66; 
     font-family: 'Poppins', sans-serif; 
     font-size: 25px; 
     font-weight: bold; 
-    background-color: #d3b3ec;
     backdrop-filter: blur(40px);
     border-radius: 20px 20px 20px 20px;
     margin-left: 5%;
     margin-top: 0%;
     text-align: auto;
     padding: 1% 2% 1% 2%;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
 }
 #menu, .menu {	
     display: none; 
 }
 
 .content{
-    background-color: #87ace8;
+    background-color: #d694d5;
     width: 100%;
     padding-top: 17%;
 }
 
+.porte{
+    display: inline;
+    margin-left: 37px;
+}
+
+.legendaporte1{
+    display: inline-block;
+    margin-left: 13%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 25px; 
+    font-weight: bold; 
+    color: #772452;
+}
+
+.legendaporte2{
+    display: inline-block;
+    margin-left: 19%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 25px; 
+    font-weight: bold; 
+    color: #772452;
+}
+
+.legendaporte3{
+    display: inline-block;
+    margin-left: 19%;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 25px; 
+    font-weight: bold; 
+    color: #772452;
+}
 
 .img-porte{
     width: 20%;
     height: 20%;
     font-family: 'Poppins', sans-serif; 
     font-size: 25px; 
-    background-color: #c487af;
-    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    border-radius: 50% 50% 50% 50%;
     padding: 1%;
     margin-left: 5%;
 }   
@@ -97,16 +130,16 @@ nav ul li a {
 .logo {
     width: 5%;
     border-radius: 20%;
-    padding: 10px; 
-    color: #c5dcfb; 
+    padding: 10px;  
     font-family: 'Poppins', sans-serif; 
     font-size: 25px; 
     font-weight: bold; 
-    background-color: #d3b3ec;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
     border-radius: 20px 20px 20px 20px;
     margin-left: 1%;
     margin-top: 0%;
     text-align: auto;
-    padding: 1;
+    padding: 10px;
 }
