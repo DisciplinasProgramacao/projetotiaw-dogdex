@@ -16,7 +16,7 @@ Disponibilizar uma plataforma onde seja possível acessar informações de diver
 * Lucas
 
 ## Quadro de tarefas
-Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.
+https://trello.com/invite/b/sZss6Cde/ATTIc2f11667d0f1bfc7883b6cf7fa613ed307EF761A/kanban
 
 ## Instruções para uso
 Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
