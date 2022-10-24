@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 .content{
-    background-color: #d694d5;
+    background-color: #ffffff;
     width: 100%;
     padding-top: 17%;
 }
@@ -143,3 +143,132 @@ nav ul li a {
     text-align: auto;
     padding: 10px;
 }
+
+
+hr{
+    font-weight: bold;
+}
+
+
+
+
+/*CURIOSIDADES***************************************************************/
+
+
+.curiosidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+  }
+  
+  .curiosidades h1,.content h1 {
+    color: black;
+    font-weight: 700; 
+  }
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 24px auto; 
+    background-color: wheat;
+  }
+  
+  #item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  #item img {
+    border-radius: 8px 0 0 8px;
+    width: 50%;
+  }
+  
+  .about {
+    width: 50%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: var(--primary);
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .about h1 {
+    
+    font-weight: 700;
+  }
+  
+  .about a {
+    width: 80%;
+    height: 50px;
+    border-radius: 16px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 193, 207);
+    border: 1px solid var(--white);
+  }
+  
+  .about a:hover {
+    animation-duration: 0.5s;
+    animation-name: changeScale;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes changeScale {
+    from {
+      transform: scale(1);
+    }
+  
+    to {
+      transform: scale(1.03);
+    }
+  }
+
+  @media (min-width: 576px) { 
+    .curiosidades, .content h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .carousel-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      height: auto;
+      margin: 24px auto;
+    }
+    
+    #item {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      height: auto;
+      justify-content: space-between;
+    }
+    
+    #item img {
+      border-radius: 8px 0 0 8px;
+      max-width: 100%;
+      height: auto;
+    }
+   }
+
+   .about{
+    background-image: url("imgs/recortebackground.jpg"); 
+   }
+
+
