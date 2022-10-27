@@ -16,61 +16,55 @@
 </head>
 
 <body>
-  <header>
-    <div>
-      <input type="checkbox" id="menu">
-      <label for="menu" class="menu"><i class="fa fa-bars"></i>
-      </label>
-      <nav>
-        <ul>
-          <li><img src="imgs/dogdex.jpg" alt="Avatar" class="logo"></li>
-          <li><a href="racas.html" style="text-decoration:none">Raças</a></li>
-          <li><a href="curiosidades.html" style="text-decoration:none">Curiosidades</a></li>
-          <li><a href="mapa.html" style="text-decoration:none">Mapa</a></li>
-          <li><a href="forum.html" style="text-decoration:none">Fórum</a></li>
-          <li><a href="login.html" style="text-decoration:none">Login</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  
+      <div class="">
+        <input type="checkbox" id="menu">
+        <label for="menu" class="menu"><i class="fa fa-bars"></i>
+        </label>
+        <nav class="nav-container d-flex justify-content-between align-items-center">
+          <ul>
+            <li><img src="imgs/dogdex.jpg" alt="Avatar" class="logo"></li>
+            <li><a href="racas.html" style="text-decoration:none">Raças</a></li>
+            <li><a href="curiosidades.html" style="text-decoration:none">Curiosidades</a></li>
+            <li><a href="mapa.html" style="text-decoration:none">Mapa</a></li>
+            <li><a href="forum.html" style="text-decoration:none">Fórum</a></li>
+            <li><a href="login.html" style="text-decoration:none">Login</a></li>
+            
+          </ul>
+          <div id="divBusca" class="d-flex align-items-center justify-content-center">
+            <img src="imgs/pesquisar.png" class="image-input" alt="Buscar..."/>
+            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+            <button id="btnBusca">Buscar</button>
+          </div>
+        </nav>
+      </div>
+  
 
-
-
-  <div class="content">
+  <div class="container d-flex flex-column align-items-center">
     <h1>Raças</h1>
-    <div class="porte">
-      <img src="imgs/pequeno-porte.jpg" class="img-porte" id="pequeno">
+    <div class="d-flex align-items-center justify-content-center">
+      <div class="container-doguinho d-flex flex-column align-items-center">
+        <img src="imgs/pequeno-porte.jpg" class="img-porte" id="pequeno">
+        <div class="legendaporte1">
+          <span>Pequeno Porte</span>
+        </div>
+      </div>
+      <div class="container-doguinho d-flex flex-column align-items-center">
+        <img src="imgs/medio-porte.jpg" class="img-porte" id="medio">
+        <div class="legendaporte1">
+          <span>Médio Porte</span>
+        </div>
+      </div>
+      <div class="container-doguinho d-flex flex-column align-items-center">
+        <img src="imgs/grande-porte.jpg" class="img-porte" id="grande">
+        <div class="legendaporte1">
+          <span>Grande Porte</span>
+        </div>
+      </div>
     </div>
-    <div class="porte">
-      <img src="imgs/medio-porte.jpg" class="img-porte" id="medio">
-    </div>
-    <div class="porte">
-      <img src="imgs/grande-porte.jpg" class="img-porte" id="grande">
-    </div>
-
-
-    <div class="legendaporte1">
-      <span>Pequeno Porte</span>
-    </div>
-    <div class="legendaporte2">
-      <span>Médio Porte</span>
-    </div>
-    <div class="legendaporte3">
-      <span>Grande Porte</span>
-    </div>
-
   </div>
 
   <hr size=7>
-
-
-
-
-
-
-
-
-
 
   <div id="curiosidades" class="curiosidades">
     <h1>Curiosidades</h1>
