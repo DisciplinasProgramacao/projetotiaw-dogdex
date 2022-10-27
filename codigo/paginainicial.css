@@ -5,16 +5,60 @@ body {
   padding: 0;
 }
 
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #c47fb3;
+  border-radius:10px;
+  width:300px;
+  height:35px;
+  margin-right: 40px;
+}
+.container-hearder{
+  width: 100%;
+}
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+ul{
+  margin-top: 1rem !important;
+}
+.image-input{
+  height: 1.4rem;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#c47fb3;
+}
+
+#divBusca img{
+  float:left;
+  size: 23px;
+}
+
+
 nav {
   width: 100%;
   background-image: url("imgs/recortebackground.jpg");
   float: left;
-  padding: 10px 0px;
+  padding: 10px 0px 0px 10px;
 }
 
 nav ul li {
   list-style: none;
   display: inline;
+  font-size: 30px;
 
 }
 
@@ -22,16 +66,21 @@ nav ul li a {
   padding: 10px;
   color: #942d66;
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   backdrop-filter: blur(40px);
   border-radius: 20px 20px 20px 20px;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 0%;
   text-align: auto;
   padding: 1% 2% 1% 2%;
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(40px);
+}
+
+nav.nav-container{
+  height: 7rem;
+  width: 100%;
 }
 
 #menu,
@@ -42,7 +91,8 @@ nav ul li a {
 .content {
   background-color: #ffffff;
   width: 100%;
-  padding-top: 17%;
+  padding-top: 9rem;
+  align-items: center;
 }
 
 .porte {
@@ -52,43 +102,25 @@ nav ul li a {
 
 .legendaporte1 {
   display: inline-block;
-  margin-left: 13%;
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: #772452;
 }
 
-.legendaporte2 {
-  display: inline-block;
-  margin-left: 19%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: #772452;
-}
-
-.legendaporte3 {
-  display: inline-block;
-  margin-left: 19%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: #772452;
-}
 
 .img-porte {
-  width: 20%;
-  height: 20%;
+  width: 10rem;
+  height: 8rem;
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(40px);
   border-radius: 50% 50% 50% 50%;
-  padding: 1%;
-  margin-left: 5%;
 }
-
+.container-doguinho{
+  margin: 0 2rem;
+}
 .img-porte #pequeno {
   float: left;
   margin-left: 20px;
@@ -140,7 +172,7 @@ nav ul li a {
 }
 
 .logo {
-  width: 5%;
+  width: 9%;
   border-radius: 20%;
   padding: 10px;
   font-family: 'Poppins', sans-serif;
@@ -181,12 +213,6 @@ hr {
 
 }
 
-.curiosidades h1,
-.content h1 {
-  color: black;
-  font-weight: 700;
-}
-
 .carousel-container {
   display: flex;
   align-items: center;
@@ -220,11 +246,6 @@ hr {
   border-radius: 0 8px 8px 0;
 }
 
-.about h1 {
-
-  font-weight: 700;
-}
-
 .about a {
   width: 80%;
   height: 50px;
@@ -256,8 +277,7 @@ hr {
 
 @media (min-width: 576px) {
 
-  .curiosidades,
-  .content h1 {
+  .curiosidades{
     display: flex;
     flex-direction: column;
     align-items: center;
