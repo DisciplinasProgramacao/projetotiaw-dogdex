@@ -5,45 +5,68 @@ body {
   padding: 0;
 }
 
-#divBusca{
-  background-color:#E0EEEE;
-  border:solid 2px #c47fb3;
-  border-radius:10px;
-  width:300px;
-  height:35px;
+/*BARRA DE MENU******************/
+.logo {
+  width: 9%;
+  border-radius: 20%;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 1%;
+  margin-top: 0%;
+  text-align: auto;
+  padding: 10px;
+}
+
+
+#divBusca {
+  background-color: #E0EEEE;
+  border: solid 2px #c47fb3;
+  border-radius: 10px;
+  width: 300px;
+  height: 35px;
   margin-right: 40px;
 }
-.container-hearder{
+
+.container-hearder {
   width: 100%;
 }
-#txtBusca{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-size:18px;
-  border:none;
-  height:32px;
-  width:191px;
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 191px;
 }
-ul{
+
+ul {
   margin-top: 1rem !important;
 }
-.image-input{
+
+.image-input {
   height: 1.4rem;
 }
 
-#btnBusca{
-  border:none;
-  float:left;
-  height:32px;
-  border-radius:0 7px 7px 0;
-  width:70px;
-  font-weight:bold;
-  background:#c47fb3;
+#btnBusca {
+  border: none;
+  float: left;
+  height: 32px;
+  border-radius: 0 7px 7px 0;
+  width: 70px;
+  font-weight: bold;
+  background: #c47fb3;
 }
 
-#divBusca img{
-  float:left;
+#divBusca img {
+  float: left;
   size: 23px;
 }
 
@@ -78,7 +101,7 @@ nav ul li a {
   backdrop-filter: blur(40px);
 }
 
-nav.nav-container{
+nav.nav-container {
   height: 7rem;
   width: 100%;
 }
@@ -95,48 +118,32 @@ nav.nav-container{
   align-items: center;
 }
 
-.porte {
-  display: inline;
-  margin-left: 37px;
-}
-
+/*PARTE RAÇAS POR PORTE***********************/
 .legendaporte1 {
   display: inline-block;
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: #772452;
+  margin-top: 1rem;
 }
 
-
 .img-porte {
-  width: 10rem;
-  height: 8rem;
+  width: 20rem;
+  height: 16rem;
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(40px);
   border-radius: 50% 50% 50% 50%;
 }
-.container-doguinho{
-  margin: 0 2rem;
-}
-.img-porte #pequeno {
-  float: left;
-  margin-left: 20px;
+
+.container-doguinho {
+  margin: 3rem;
+  margin-top: 2rem;
 }
 
-.img-porte #medio {
-  float: center;
-  margin-left: 20px;
-}
-
-.img-porte #grande {
-  float: right;
-  margin-left: 20px;
-}
-
-
+/*RESPONSIVIDADE********************************/
 @media screen and (max-width: 480px) {
 
   nav {
@@ -171,29 +178,11 @@ nav.nav-container{
 
 }
 
-.logo {
-  width: 9%;
-  border-radius: 20%;
-  padding: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(40px);
-  backdrop-filter: blur(40px);
-  border-radius: 20px 20px 20px 20px;
-  margin-left: 1%;
-  margin-top: 0%;
-  text-align: auto;
-  padding: 10px;
-}
-
-
 hr {
   font-weight: bold;
 }
 
-.mapa{
+.mapa {
   text-align: center;
   height: 80%;
 }
@@ -278,7 +267,7 @@ hr {
 
 @media (min-width: 576px) {
 
-  .curiosidades{
+  .curiosidades {
     display: flex;
     flex-direction: column;
     align-items: center;
