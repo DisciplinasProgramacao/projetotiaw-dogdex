@@ -245,6 +245,10 @@ html {
   outline: none;
 }
 
+.mb-0{
+  margin-top: 10px;
+}
+
   
   #item {
     display: flex;
