@@ -216,7 +216,7 @@ html {
 }
 
 .slider-card {
-  background: #fff;
+  background-image: url(imgs/background.png);
   padding: 0px 0px;
   margin: 50px 15px 90px 15px;
   border-radius: 5px;
@@ -224,7 +224,7 @@ html {
   transform: scale(0.9);
   opacity: 0.5;
   transition: all 0.3s;
-  color: #772452;
+  color: #000000;
 }
 
 .owl-nav .owl-prev {
