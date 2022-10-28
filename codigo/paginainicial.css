@@ -204,13 +204,17 @@ hr {
 /*CURIOSIDADES***************************************************************/
 
 
-.curiosidades {
+.destaques {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(171, 208, 216);
+}
 
+.destaques h1 {
+  color: black;
+  font-weight: 700; 
 }
 
 .carousel-container {
@@ -218,8 +222,8 @@ hr {
   align-items: center;
   justify-content: center;
   width: 80%;
-  margin: 24px auto;
-  background-color: wheat;
+  margin: 24px auto; 
+  background-color: rgb(124, 161, 179);
 }
 
 #item {
@@ -244,6 +248,11 @@ hr {
 
   background-color: var(--primary);
   border-radius: 0 8px 8px 0;
+}
+
+.about h1 {
+  
+  font-weight: 700;
 }
 
 .about a {
@@ -275,15 +284,13 @@ hr {
   }
 }
 
-@media (min-width: 576px) {
-
-  .curiosidades{
+@media (min-width: 576px) { 
+  .destaques {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
   .carousel-container {
     display: flex;
     align-items: center;
@@ -292,6 +299,22 @@ hr {
     height: auto;
     margin: 24px auto;
   }
+  
+  #item {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+    justify-content: space-between;
+  }
+  
+  #item img {
+    border-radius: 8px 0 0 8px;
+    max-width: 100%;
+    height: auto;
+  }
+ }
+
 
   #item {
     display: flex;
@@ -306,7 +329,7 @@ hr {
     max-width: 100%;
     height: auto;
   }
-}
+
 
 .about {
   background-image: url("imgs/recortebackground.jpg");
