@@ -245,9 +245,13 @@ html {
   outline: none;
 }
 
-.mb-0{
-  margin-top: 10px;
+.h5, h5 {
+  margin-top: -3px;
+  font-size: 1.25rem;
+  margin-block: 41px;
+  padding-top: 20px;
 }
+.h
 
   
   #item {
