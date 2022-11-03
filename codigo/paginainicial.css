@@ -119,13 +119,14 @@ nav.nav-container {
 }
 
 /*PARTE RAÇAS POR PORTE***********************/
-.legendaporte1 {
+.legendaporte1 span{
   display: inline-block;
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: #772452;
   margin-top: 1rem;
+  text-decoration:none;
 }
 
 .img-porte {
@@ -141,6 +142,45 @@ nav.nav-container {
 .container-doguinho {
   margin: 3rem;
   margin-top: 2rem;
+}
+
+/*GRANDE PORTE********************************/
+.legendaportegrande span{
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #772452;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-decoration:none;
+}
+
+.img-portegrande {
+  width: 15rem;
+  height: 12rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(40px);
+  border-radius: 50% 50% 50% 50%;
+}
+
+.container-doguinhogrande {
+  margin: 3rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.img-raca{
+  width: 30rem;
+  height: 24rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(40px);
+  border-radius: 25% 25% 25% 25%;
+  margin-top: 1rem;
 }
 
 /*RESPONSIVIDADE********************************/
