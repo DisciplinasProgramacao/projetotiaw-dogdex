@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="en">
+    
+    <head>
+      <script src="javaScript/login.js" type="text/javaScript"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Página de Login</title>
+        <script scr="javaScript/login.js" ></script>
+    </head>
+
+<body>
+
+  <div class="box">
+    <div class="img-box">
+      <img src="imgs/img-formulario.jpg">
+    </div>
+    <div class="form-box">
+      <h2>Acesso à Conta</h2>
+      
+      <p> Não possui uma conta? <a href="cadastro.html"> Cadastre-se aqui </a> </p>
+    <form action="http://127.0.0.1:5500/codigo/paginainicial.html">
+    <div class="input-group">
+      <label for="nome"><b>Usuário</b></label>
+      <input type="text" placeholder="Insira o usuário" name="uname" required>
+    </div>
+    <div class="input-group">
+      <label for="senha"><b>Senha</b></label>
+      <input type="password" placeholder="Insira a senha" name="psw" required>
+    </div>
+    <div class="input-group w50">
+      <button onclick="logar()" type="submit">Login</button>
+    </div>
+    <div class="input-group" style="padding-top: 13px;">
+      <span class="psw">Esqueceu a senha? <a href="#">Redefina-a agora</a></span>
+    </div>
+    </div>
+  </div>
+  </form>
+
+</body>
+
+</html>
