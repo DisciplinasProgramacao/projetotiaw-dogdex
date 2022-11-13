@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Página de Login</title>
-        <script scr="javaScript/login.js" ></script>
+        <script src="./login.js"></script>
     </head>
 
 <body>
@@ -20,14 +20,17 @@
       <h2>Acesso à Conta</h2>
       
       <p> Não possui uma conta? <a href="cadastro.html"> Cadastre-se aqui </a> </p>
-    <form action="http://127.0.0.1:5500/codigo/paginainicial.html">
+
+      <div id="mensagemErro"></div>
+
+    <form>
     <div class="input-group">
-      <label for="nome"><b>Usuário</b></label>
-      <input type="text" placeholder="Insira o usuário" name="uname" required>
+      <label id="labelUsuario" for="usuario"><b>Usuário</b></label>
+      <input type="text" placeholder="Insira o usuário" name="uname" id="usuario">
     </div>
     <div class="input-group">
-      <label for="senha"><b>Senha</b></label>
-      <input type="password" placeholder="Insira a senha" name="psw" required>
+      <label id="labelSenha" for="senha"><b>Senha</b></label>
+      <input type="password" placeholder="Insira a senha" name="psw" id="senha">
     </div>
     <div class="input-group w50">
       <button onclick="logar()" type="submit">Login</button>
