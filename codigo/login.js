@@ -21,7 +21,7 @@ function logar() {
 
     listaUser.forEach((item) => {
         if (usuario.value == item.emailCadastro && senha.value == item.senhaCadastro) {
-            
+
             validarUsuario = {
                 nome: item.nomeCadastro,
                 email: item.emailCadastro,
@@ -31,11 +31,11 @@ function logar() {
         }
     })
 
-    if(usuario.value == validarUsuario.usuario && senha.value == validarUsuario.senha){
+    if (usuario.value == validarUsuario.usuario && senha.value == validarUsuario.senha) {
 
         window.location.href = paginainicial.html
 
-    }else{
+    } else {
 
         alert("Usuário ou senha inválidos")
 
@@ -46,9 +46,6 @@ function logar() {
         mensagemErro.labelUsuario.setAttribute('style', 'display: block')
         mensagemErro.innerHTML = 'Usuário ou senha inválidos'
         usuario.focus()
-        
-
-
     }
 
 }

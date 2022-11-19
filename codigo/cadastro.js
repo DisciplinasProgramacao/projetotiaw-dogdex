@@ -1,8 +1,8 @@
-let validarNome = false;
-let validarEmail = false;
-let validarTelefone = false;
-let validarSenha = false;
-let validarConfirmarSenha = false;
+let validarNome = true;
+let validarEmail = true;
+let validarTelefone = true;
+let validarSenha = true;
+let validarConfirmarSenha = true;
 
 document.addEventListener("keyup", e => {
     const elemento = e.target;
@@ -15,13 +15,11 @@ document.addEventListener("keyup", e => {
             labelNome.setAttribute('style', 'color: red')
             labelNome.innerHTML = 'Nome *Insira no mínimo 3 caracteres'
             nome.setAttribute('style', 'border-color: red')
-            let validarNome = false;
 
         } else {
             labelNome.setAttribute('style', 'color: green')
             labelNome.innerHTML = 'Nome'
             nome.setAttribute('style', 'border-color: green')
-            let validarNome = true;
         }
     }
 
@@ -32,13 +30,11 @@ document.addEventListener("keyup", e => {
             labelEmail.setAttribute('style', 'color: red')
             labelEmail.innerHTML = 'E-mail *Insira no mínimo 6 caracteres'
             email.setAttribute('style', 'border-color: red')
-            let validarEmail = false;
 
         } else {
             labelEmail.setAttribute('style', 'color: green')
             labelEmail.innerHTML = 'E-mail'
             email.setAttribute('style', 'border-color: green')
-            let validarEmail = true;
         }
     }
 
@@ -49,13 +45,11 @@ document.addEventListener("keyup", e => {
             labelTelefone.setAttribute('style', 'color: red')
             labelTelefone.innerHTML = 'Telefone *Formato: (12) 3456-7891'
             telefone.setAttribute('style', 'border-color: red')
-            let validarTelefone = false;
 
         } else {
             labelTelefone.setAttribute('style', 'color: green')
             labelTelefone.innerHTML = 'E-mail'
             telefone.setAttribute('style', 'border-color: green')
-            let validarTelefone = true;
         }
     }
 
@@ -65,13 +59,11 @@ document.addEventListener("keyup", e => {
             labelSenha.setAttribute('style', 'color: red')
             labelSenha.innerHTML = 'Senha *Insira no mínimo 6 caracteres'
             senha.setAttribute('style', 'border-color: red')
-            let validarSenha = false;
 
         } else {
             labelSenha.setAttribute('style', 'color: green')
             labelSenha.innerHTML = 'Senha'
             senha.setAttribute('style', 'border-color: green')
-            let validarSenha = true;
         }
     }
 
@@ -81,13 +73,11 @@ document.addEventListener("keyup", e => {
             labelConfirmarSenha.setAttribute('style', 'color: red')
             labelConfirmarSenha.innerHTML = 'Confirmar senha *As senhas não conferem'
             confirmarSenha.setAttribute('style', 'border-color: red')
-            let validarConfirmarSenha = false;
 
         } else {
             labelConfirmarSenha.setAttribute('style', 'color: green')
             labelConfirmarSenha.innerHTML = 'Confirmar senha'
             confirmarSenha.setAttribute('style', 'border-color: green')
-            let validarConfirmarSenha = true;
         }
     }
 })
@@ -133,12 +123,4 @@ function cadastrar() {
         // mensagemSucesso.innerHTML = ''
     }
 
-    // const form = document.querySelector('form');
-
-    // const nome = form.nome.value;
-
-    // localStorage.setItem("nome", nome);
-
-    // console.log(localStorage.getItem("nome"));
 }
-
