@@ -1,10 +1,10 @@
 function logar() {
 
     let usuario = document.querySelector('#usuario')
-    let labelUsuario = documet.querySelector('#labelUsuario')
+    let labelUsuario = document.querySelector('#labelUsuario')
 
     let senha = document.querySelector('#senha')
-    let labelSenha = documet.querySelector('#labelSenha')
+    let labelSenha = document.querySelector('#labelSenha')
 
     let mensagemErro = document.querySelector('#mensagemErro')
 
@@ -12,28 +12,28 @@ function logar() {
 
     let validarUsuario = {
         nome: '',
-        email: '',
+        usuario: '',
         telefone: '',
         senha: ''
     }
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
 
-    listaUser.forEach((item) => {
-        if (usuario.value == item.emailCadastro && senha.value == item.senhaCadastro) {
+    for(index=0;index<listaUser.length;index++){//listaUser.forEach((item) => {
+        if (usuario.value == listaUser[index].emailCadastro && senha.value == listaUser[index].senhaCadastro) {
 
             validarUsuario = {
-                nome: item.nomeCadastro,
-                email: item.emailCadastro,
-                telefone: item.telefoneCadastro,
-                senha: item.senhaCadastro
+                nome: listaUser[index].nomeCadastro,
+                usuario: listaUser[index].emailCadastro,
+                telefone: listaUser[index].telefoneCadastro,
+                senha: listaUser[index].senhaCadastro
             }
         }
-    })
+    }
 
     if (usuario.value == validarUsuario.usuario && senha.value == validarUsuario.senha) {
 
-        window.location.href = paginainicial.html
+        window.location.href = "paginainicial.html"
 
     } else {
 
