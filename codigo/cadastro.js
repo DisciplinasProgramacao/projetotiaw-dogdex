@@ -108,9 +108,9 @@ function cadastrar() {
         // mensagemErro.setAttribute('style', 'display: none')
         // mensagemErro.innerHTML = ''
 
-        setTimeout(()=>{
+      //  setTimeout(()=>{
             window.location.href = 'login.html'
-        }, 2000)
+        //}, 2000)
         
 
     }else{
