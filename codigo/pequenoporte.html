@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="racas.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Pequeno Porte</title>
 </head>
 
@@ -23,9 +24,13 @@
 
     <main>
         <ul>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Basenji</h2>
-            </li>
+            <a href="#" data-toggle="modal" data-target="#myModal">
+                <li class="pequenoporte"><img src="imgs/sem-foto.webp" href="#" class="card-link" data-toggle="modal"
+                        data-target="#siteModal">
+                    <h2>Basenji</h2>
+                </li>
+            </a>
+
             <li class="pequenoporte"><img src="imgs/sem-foto.webp">
                 <h2>Beagle</h2>
             </li>
@@ -60,12 +65,37 @@
                 <h2>Yorkshire Terrier</h2>
             </li>
 
+
         </ul>
     </main>
+
+    <!-- Inicio Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Nome da Raça</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Modal -->
+
 
     <footer>
 
     </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
