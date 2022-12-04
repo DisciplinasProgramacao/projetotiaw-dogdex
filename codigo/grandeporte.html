@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="racas.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Grande Porte</title>
 </head>
 
@@ -15,7 +16,8 @@
     <header>
         <h1>
             <a href="paginainicial.html">
-                <img src="https://drive.google.com/uc?export=download&id=1_UV8DEKtTcJqLHrXTuSwkR_Jaa0fBqK9" class="logo">
+                <img src="https://drive.google.com/uc?export=download&id=1_UV8DEKtTcJqLHrXTuSwkR_Jaa0fBqK9"
+                    class="logo">
             </a>
         </h1>
 
@@ -23,49 +25,158 @@
 
     <main>
         <ul>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Akita</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Border Colie</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Boxer</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Cane Corso</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Doberman</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Dogue Alemão</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Golden Retriever</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Labrador</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Pastor Alemão</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Pastor Australiano</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Rottweiler</h2>
-            </li>
-            <li class="grandeporte"><img src="imgs/sem-foto.webp">
-                <h2>Terra Nova</h2>
-            </li>
+
+            <a href="#" data-toggle="modal" data-target="#Akita">
+                <li class="grandeporte"><img src="imgs/sem-foto.webp">
+                    <h2>Akita</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Border">
+                <li class="grandeporte"><img src="imgs/sem-foto.webp">
+                    <h2>Border Colie</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Boxer">
+                <li class="grandeporte"><img src="imgs/sem-foto.webp">
+                    <h2>Boxer</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Cane">
+                <li class="grandeporte"><img src="imgs/sem-foto.webp">
+                    <h2>Cane Corso</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Doberman">
+                <li class="grandeporte"><img src="imgs/sem-foto.webp">
+                    <h2>Doberman</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Dogue">
+                <li class="grandeporte"><img src="imgs/sem-foto.webp">
+                    <h2>Dogue Alemão</h2>
+                </li>
+            </a>
 
         </ul>
     </main>
 
+    <!-- Inicio Modal -->
+    <div class="modal fade" id="Akita" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Akita</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Border" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Border Colie</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Boxer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Boxer</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Cane" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Cane Corso</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Doberman" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Doberman</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Dogue" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Dogue Alemão</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Modal -->
+
     <footer>
 
     </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

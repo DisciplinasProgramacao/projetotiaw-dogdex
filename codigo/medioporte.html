@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="racas.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Médio Porte</title>
 </head>
 
@@ -15,7 +16,8 @@
     <header>
         <h1>
             <a href="paginainicial.html">
-                <img src="https://drive.google.com/uc?export=download&id=1_UV8DEKtTcJqLHrXTuSwkR_Jaa0fBqK9" class="logo">
+                <img src="https://drive.google.com/uc?export=download&id=1_UV8DEKtTcJqLHrXTuSwkR_Jaa0fBqK9"
+                    class="logo">
             </a>
         </h1>
 
@@ -23,49 +25,159 @@
 
     <main>
         <ul>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>American Bully</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Basset Hound</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Bull Terrier</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Chow Chow</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Cocker Spaniel Inglês</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Greyhound</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Poodle</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Shar Pei</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Spitz Japonês</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Staffordshire Bull Terrier</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Welsh Corgi Cardigan</h2>
-            </li>
-            <li class="pequenoporte"><img src="imgs/sem-foto.webp">
-                <h2>Welsh Corgi Pembroke</h2>
-            </li>
+
+            <a href="#" data-toggle="modal" data-target="#American">
+                <li class="pequenoporte"><img src="imgs/sem-foto.webp">
+                    <h2>American Bully</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Basset">
+                <li class="pequenoporte"><img src="imgs/sem-foto.webp">
+                    <h2>Basset Hound</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Bull">
+                <li class="pequenoporte"><img src="imgs/sem-foto.webp">
+                    <h2>Bull Terrier</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Chow">
+                <li class="pequenoporte"><img src="imgs/sem-foto.webp">
+                    <h2>Chow Chow</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Cocker">
+                <li class="pequenoporte"><img src="imgs/sem-foto.webp">
+                    <h2>Cocker Spaniel Inglês</h2>
+                </li>
+            </a>
+
+            <a href="#" data-toggle="modal" data-target="#Greyhound">
+                <li class="pequenoporte"><img src="imgs/sem-foto.webp">
+                    <h2>Greyhound</h2>
+                </li>
+            </a>
 
         </ul>
     </main>
 
+    <!-- Inicio Modal -->
+    <div class="modal fade" id="American" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">American Bully</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Basset" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Basset Hound</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Bull" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Bull Terrier</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Chow" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Chow Chow</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Cocker" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Cocker Spaniel Inglês</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Greyhound" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Greyhound</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Modal -->
+
+
     <footer>
 
     </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
