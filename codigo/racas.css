@@ -40,7 +40,27 @@ ul {
 }
 
 .pequenoporte h2 {
-    font-size: 1.5rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: #772452;
+    font-family: 'Poppins', sans-serif;
+}
+
+.medioporte {
+    display: inline-block;
+
+}
+
+.medioporte img {
+    width: 220px;
+    height: 200px;
+    margin: 50px 50px 15px 50px;
+    border-radius: 150px;
+
+}
+
+.medioporte h2 {
+    font-size: 25px;
     font-weight: bold;
     color: #772452;
     font-family: 'Poppins', sans-serif;
