@@ -1,5 +1,6 @@
+
 header {
-    background: url(imgs/background.png);
+    background: url(https://drive.google.com/uc?export=download&id=1ff92Ljkfl61f3dGH0NqQRpFOfizE0vJ6);
     width: 100%;
     height: 150px;
 }
@@ -31,14 +32,35 @@ ul {
 }
 
 .pequenoporte img {
-    width: 280px;
+    width: 220px;
+    height: 200px;
     margin: 50px 50px 15px 50px;
     border-radius: 150px;
 
 }
 
 .pequenoporte h2 {
-    font-size: 1.5rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: #772452;
+    font-family: 'Poppins', sans-serif;
+}
+
+.medioporte {
+    display: inline-block;
+
+}
+
+.medioporte img {
+    width: 220px;
+    height: 200px;
+    margin: 50px 50px 15px 50px;
+    border-radius: 150px;
+
+}
+
+.medioporte h2 {
+    font-size: 25px;
     font-weight: bold;
     color: #772452;
     font-family: 'Poppins', sans-serif;
@@ -64,7 +86,7 @@ ul {
 }
 
 footer {
-    background: url(imgs/background.png);
+    background: url(https://drive.google.com/uc?export=download&id=1ff92Ljkfl61f3dGH0NqQRpFOfizE0vJ6);
     width: 100%;
     height: 150px;
     margin-top: 50px;
