@@ -54,7 +54,7 @@ document.addEventListener("keyup", e => {
     }
 
     if (elemento.id == "senha") {
-        let labelSenha = document.querySelector("#labelSenha")
+        let labelSenha = document.requerySelector("#labelSenha")
         if (senha.value.length <= 5) {
             labelSenha.setAttribute('style', 'color: red')
             labelSenha.innerHTML = 'Senha *Insira no mínimo 6 caracteres'
