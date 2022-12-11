@@ -1,47 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="paginaperfil.css">
-    <title>Página de perfil</title>
+    <title>Gerenciamento de Usuários</title>
+    <link rel='stylesheet' href='./paginaperfil.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Sharp">
 </head>
-
 <body>
-    <header>
-        <h1>
-            <a href="paginainicial.html">
-                <img src="https://drive.google.com/uc?export=download&id=1_UV8DEKtTcJqLHrXTuSwkR_Jaa0fBqK9" class="logo">
-            </a>
-        </h1>
-    </header>
-
-    <div class="corpo" style="font-family: 'Poppins', sans-serif; text-align: center;">
-        <div class="cabecalho">
-
-            <h1 style="font-size: 37px; text-decoration: overline;">Perfil</h1>
-            <img style="width: 200px; border-radius: 10%; padding-bottom: 17px; padding-top: 0px;"
-                src="imgs/fotoperfil.jpg" class="img-perfil" id="perfil">
+    <div class='menu'>
+        <div class='profile'>
+            <img class='profile-icon' src='https://drive.google.com/uc?export=download&id=19qxxBlsshJwBf7LNegvidM-NGg_85uGj' alt='Ícone de Perfil'>
+            <span class='profile-name'>Grupo Dogdex</span>
+            <span class='profile-admin'>Administrador</span>
         </div>
-
-        
-        <div class="detalhes">
-            <h1 style="text-decoration:overline; padding-top: 20px;">Detalhes</h1>
-            <div style="font-size: 19px;">
-
-            <span class="Negrito"><b> Nome: </b> </span>
-            <p>Ana Silva Castanheira</p>
-            <span class="Negrito"> <b> Idade: </b> </span>
-            <p> 26 anos </p>
-            <span class="Negrito"> <b>Localização:</b> </span>
-            <p> Belo Horizonte - MG </p></div>
+        <div class='logout-container'>
+            <div class='logout'>
+                Sair 
+                <span class="material-icons-sharp">
+                    logout
+                </span>
+            </div>
         </div>
     </div>
-
-    <footer>
-    </footer>
+    <div class='content'>
+        <img class='logo' src="https://drive.google.com/uc?export=download&id=1_UV8DEKtTcJqLHrXTuSwkR_Jaa0fBqK9" alt="Logo">
+        <table class='users'>
+            <tr>
+                <td class='table-id'>n°</td>
+                <td class='table-icon'>Ícone</td>
+                <td class='table-name'>Nome</td>
+                <td class='table-email'>E-mail</td>
+                <td class='table-phone'>Telefone</td>
+                <td class='table-date'>Criado em</td>
+                <td class='table-admin'>Admin</td>
+                <td class='table-actions'>
+                    <span class="material-icons-sharp add">add</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class='form form-add'>
+        <form class='register'>
+            <div class='form-container'>
+                <span class="material-icons-sharp close">close</span>
+                <span class=form-title>Cadastrar</span>
+                <input type='text' required class='form-name' name='name' placeholder="Nome">
+                <input type='text' required class='form-email' name='email' placeholder="E-mail">
+                <input type='text' required class='form-phone' name='phone' placeholder="Telefone">
+                <input type='password' required class='form-senha' name='password' placeholder="Senha">
+                <div>
+                    <label>
+                    <input type='checkbox' class='form-admin' name='admin'>
+                    Administrador</label>
+                </div>
+                <input type='file' name='photo' class='form-icon'>
+                <span class="material-icons-sharp check">done</span>
+            </div>
+        </form>
+    </div>
+    <div class='form form-edit'>
+        <form class='edit'>
+            <div class='form-container'>
+                <span class="material-icons-sharp close">close</span>
+                <span class=form-title>Editar</span>
+                <input type='hidden' class='form-id' name='id'>
+                <input type='text' required class='form-name' name='name' placeholder="Nome">
+                <input type='text' required class='form-email' name='email' placeholder="E-mail">
+                <input type='text' required class='form-phone' name='phone' placeholder="Telefone">
+                <div>
+                    <label>
+                    <input type='checkbox' class='form-admin' name='admin'>
+                    Administrador</label>
+                </div>
+                <input type='file' name='photo' class='form-icon'>
+                <span class="material-icons-sharp check">done</span>
+            </div>
+        </form>
+    </div>
 </body>
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js'></script>
+<script src='./models/User.js'></script>
+<script src='./controllers/UserController.js'></script>
+<script src='./app.js'></script>
 </html>

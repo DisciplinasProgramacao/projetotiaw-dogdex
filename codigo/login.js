@@ -19,7 +19,7 @@ function logar() {
 
     listaUser = JSON.parse(localStorage.getItem('listaUser'))
 
-    for(index=0;index<listaUser.length;index++){//listaUser.forEach((item) => {
+    for (index = 0; index < listaUser.length; index++) {//listaUser.forEach((item) => {
         if (usuario.value == listaUser[index].emailCadastro && senha.value == listaUser[index].senhaCadastro) {
 
             validarUsuario = {
