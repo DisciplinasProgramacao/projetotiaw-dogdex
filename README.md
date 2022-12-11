@@ -8,7 +8,6 @@ Disponibilizar uma plataforma onde seja possível acessar informações de diver
 * Luana Mateus de Almeida
 * Nathan Augusto Lopes Santos da Cunha
 * Osvaldo Ferreira de Freitas Neto
-* Vitor Nunes de Laia Reis
 
 ## Professores responsáveis
 
