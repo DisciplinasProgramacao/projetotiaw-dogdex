@@ -7,6 +7,10 @@ Disponibilizar uma plataforma onde seja possível acessar informações de diver
   - problema no perfil
   - mapa ok, mas sem ler dados (fixo)
   
+# Nota de apresentação 95/100
+
+**Importante:** A nota-base do grupo é calculada a partir das porcentagens acima. A nota individual leva em consideração ainda a nota de acompanhamento nas reuniões de grupos, a participação efetiva nas tarefas e commits e os descontos por falta nas reuniões. 
+
 ## Comentários da correção
 
 Parabéns pelo que vocês conseguiram. Superaram algumas limitações. Fiquem atentos ao seguinte: a programação de computadores existe para criar maneiras simples de executar tarefas complicadas. Com um script lendo dados, vocês não precisariam ter cadastrado tudo aquilo dos cachorros na mão, nem feito 3 códigos de páginas em separado. Provavelmente gastariam menos tempo fazendo o script, e ainda poderiam gerar quantas páginas quisessem. 
